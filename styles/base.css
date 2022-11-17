@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Yeseva+One&display=swap'); /* Yeseva One */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital@0;1&display=swap'); /* Nunito Sans */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-yeseva {
+  font-family: 'Yeseva One', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.text-orange {color: #E3B873;}
+
+button {
+  color: #fff;
+  border: none;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background: #E3B873;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+@media screen and (max-width: 1440px) {
+  .form-name h4, .form-phone h4, .form-email h4, .form-question h4 {
+    font-size: 13px;
+    color: rgba(54, 54, 54, 0.5);
+  }
+
+  .form-name label, .form-phone label, .form-email label, .form-question label {
+    font-size: 14px;
+    line-height: 23px;
+    color: #363636;
+  }
+
+  .form-name, .form-phone, .form-email {border-bottom: 1px solid rgba(54, 54, 54, 0.3);}
+  .form-name input, .form-phone input, .form-email input, .form-question input {
+    border: none;
+    outline: none;
+    background: transparent;
+  }
+
+  .agreement {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 35px;
+    width: fit-content;
+  }
+  
+  .agreement p {
+    font-size: 14px;
+    columns: #181818;
+  }
+
+  .checkbox {
+    margin-right: 9px;
+    padding: 1px 4px;
+  }
+}
+
+@media screen and (max-width: 375px) and (min-width: 375px) {
+  .container {
+    width: 339px;
+    margin: 0 auto;
+  }
+
+  .form-name h4, .form-phone h4, .form-question h4 {
+    font-size: 13px;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  .form-name label, .form-phone label, .form-question label {
+    font-size: 14px;
+    line-height: 19px;
+    color: #fff;
+  }
+
+  .form-name, .form-phone, .form-question {
+    border-bottom: 1px solid rgb(255, 255, 255);
+  }
+
+  .form-name {margin-bottom: 50px;}
+  .form-question {margin-top: 50px;}
+  .form-name, .form-phone, .form-question {padding-bottom: 5px;}
+  
+  .form-name input, .form-phone input, .form-question input {
+    border: none;
+    outline: none;
+    background: transparent;
+  }
+
+  .agreement {margin: 26px 0 0;}
+}
+
+@media screen and (max-width: 2500px) {
+  .container {
+    margin: 0 auto;
+  }
+}

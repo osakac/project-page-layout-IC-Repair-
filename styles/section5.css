@@ -1,0 +1,144 @@
+@media screen and (max-width: 1440px) and (min-width: 1440px) {
+  .section5-content {
+    width: 1340px;
+    height: 725px;
+    margin-top: 125px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .section5-preview {
+    background-image: url(../img/section-5.png);
+    height: 645px;
+    width: 702px;
+    padding: 117px 75px 54px 248px;
+  }
+
+  .section5-stages {
+    width: 380px;
+    height: 473px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .section5-stage {
+    display: flex;
+    align-items: center;
+  }
+
+  .section5-stage h5 {
+    font-size: 18px;
+    line-height: 25px;
+    color: #fff;
+    background: #E3B873;
+    border: 8px solid #FFFFFF;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.15);
+    border-radius: 30px;
+    padding: 10px;
+    margin-right: 20px;
+  }
+
+  .section5-stage p {
+    font-size: 14px;
+    line-height: 19px;
+    color: #363636;
+  }
+
+  .section5-form-position {
+    padding-top: 117px;
+    height: fit-content;
+  }
+  
+  .section5-form {
+    width: 505px;
+    height: 510px;
+    background: #131313;
+    box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.05);
+    padding: 20px 49px;
+    border-radius: 2px;
+  }
+
+  .section5-form h3 {
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #fff;
+    width: 250px;
+    margin: 0 auto;
+  }
+
+  .section5-form-inputs {
+    height: 240px;
+    margin-top: 39px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+
+  .section5-form-inputs h4 {
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  .section5-form-inputs label {
+    color: #fff;
+  }
+
+  .section5-form-inputs input {
+    padding-bottom: 10px;
+  }
+
+  .section5-form-inputs .form-name,
+  .section5-form-inputs .form-phone,
+  .section5-form-inputs .form-email {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  }
+
+  .section5-form .agreement {
+    color: #fff;
+    margin: 0;
+    margin-bottom: 30px;
+  }
+
+  .section5-form-btn-position {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .section5-call-btn {
+    padding: 19px 21px;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.15);
+  }
+
+  .section5-sale {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 115px;
+    margin-top: -70px;
+  }
+
+  .section5-sale-icon {
+    padding: 19px 16px;
+    margin-right: 25px;
+    border-radius: 50%;
+    box-shadow: 0px 10px 20px rgba(237, 192, 120, 0.2);
+  }
+
+  .section5-sale p {
+    font-size: 18px;
+    line-height: 26px;
+    color: #E3B873;
+  }
+}
+
+
+@media screen and (max-width: 375px) and (min-width: 375px) {
+  .section5 {display: none;}
+}
+
+
+@media screen and (max-width: 2500px) {
+  .section5 {display: none;}  
+}

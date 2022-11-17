@@ -1,0 +1,111 @@
+@media screen and (max-width: 1440px) and (min-width: 1440px) {
+  .section7-title {
+    margin: 0 auto;
+    height: 65px;
+    margin-top: 120px;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 24px;
+  }
+  
+  .section7-title-icon {
+    display: flex;
+    align-items: center;
+    width: 110px;
+    justify-content: space-between;
+  }
+  
+  .section7-title h2 {
+    font-size: 20px;
+    color: #181818;
+  }
+
+  .section7-subtitle {
+    font-size: 18px;
+    font-weight: 29px;
+    color: #363636;
+    text-align: center;
+  }
+
+  .section7-reviews-block {
+    width: 1240px;
+    margin: 40px auto 0;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .section7-card {
+    width: 376px;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.04);
+    padding: 20px 32px 0 20px;
+  }
+
+  .section7-card-title {
+    display: flex;
+    align-items: center;
+    width: 300px;
+    margin-bottom: 20px;
+  }
+
+  .section7-card-title h3 {
+    font-size: 18px;
+    line-height: 23px;
+    color: #181818;
+    margin-left: 20px;
+  }
+
+  .section7-card-review {
+    font-size: 13px;
+    line-height: 23px;
+    color: #959595;
+    margin-bottom: 30px;
+  }
+
+  .section7-card-review-parameters {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 5px 5px 20px rgba(227, 184, 115, 0.5);
+    width: 303px;
+    margin-bottom: -25px;
+    margin-left: -20px;
+  }
+
+  .dimensions, .timetable {
+    background: #E3B873;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #fff;
+    font-size: 17px;
+    width: 150px;
+    height: 50px;
+    border-radius: 2px;
+  }
+
+  .section7-space-footer {
+    position: relative;
+    height: 355px;
+  }
+
+  .section7-bg-footer {
+    background-image: url(../img/section-7-bg-frame.png);
+    height: 700px;
+    width: 100%;
+    background-size: contain;
+    position: absolute;
+    top: -345px;
+  }
+}
+
+
+@media screen and (max-width: 375px) and (min-width: 375px) {
+  .section7 {display: none;}
+}
+
+
+@media screen and (max-width: 2500px) {
+  .section7 {display: none;}  
+}

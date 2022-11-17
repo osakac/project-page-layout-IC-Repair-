@@ -1,0 +1,188 @@
+@media screen and (max-width: 1440px) and (min-width: 1440px) {
+  .section8 {
+    background-image: url(../img/section-8.png);
+    height: 954px;
+  }
+
+  .section8-bg-shadow {
+    background-image: url(../img/section-8-rectangle.png);
+    height: 954px;
+    width: 100%;
+    position: relative;
+    padding-top: 280px;
+  }
+
+  .section8-form {
+    width: 883px;
+    height: 445px;
+    background: #181818;
+    margin: 0 auto;
+    position: absolute;
+    top: calc(445px / -2);
+    left: 0;
+    right: 0;
+  }
+
+  .section8-form-content {
+    width: 520px;
+    height: 376px;
+    margin: 34px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .section8-form-content h2 {
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+  }
+
+  .section8-form-inputs {
+    height: 138px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .section8-form-inputs h4 {
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  .section8-form-inputs label {
+    color: #fff;
+  }
+
+  .section8-form-inputs input {
+    padding-bottom: 10px;
+  }
+
+  .section8-form-inputs .form-name,
+  .section8-form-inputs .form-phone,
+  .section8-form-inputs .form-question {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  }
+
+  .section8-form-inputs-position {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .section8-form-content .agreement {
+    color: #fff;
+    margin: 0 auto;
+  }
+
+  .section8-submit-btn {
+    box-shadow: 0px 5px 20px rgba(227, 184, 115, 0.1);
+    padding: 20px 70px;
+    width: fit-content;
+    margin: 0 auto;
+  }
+
+  .section8-info-block {
+    width: 540px;
+    height: 105px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .section8-info {
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+  }
+
+  .section8-info-btns {
+    width: 70px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .section8-info-btns button {
+    border-radius: 50%;
+  }
+
+  .section8-map {
+    background-image: url(../img/section-8-map.png);
+    width: 925px;
+    height: 465px;
+    margin: 43px auto 0;
+  }
+}
+
+
+@media screen and (max-width: 375px) and (min-width: 375px) {
+  .section8 {
+    background: #131313;
+    padding-top: 52px;
+  }
+
+  .section8-form-content h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .section8-form-inputs {
+    margin-top: 50px;
+  }
+
+  .agreement {
+    color: #fff;
+  }
+
+  .section8-submit-btn {
+    margin-top: 65px;
+    padding: 18px;
+    width: 100%;
+    box-shadow: 0px 10px 20px rgba(227, 184, 115, 0.1);
+  }
+
+  .section8-mobile {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 46px;
+  }
+
+  .section8-map {
+    background-image: url(../mob_img/section8-map.png);
+    height: 255px;
+  }
+
+  .section8-info-block {
+    margin-top: 40px;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .section8-info {
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 306px;
+  }
+
+  .section8-info-btns {
+    width: 80px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .section8-info-btns button {
+    border-radius: 50%;
+  }
+}
+
+
+@media screen and (max-width: 2500px) {
+  .section8 {display: none;}  
+}

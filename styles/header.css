@@ -1,0 +1,131 @@
+@media screen and (max-width: 1440px) and (min-width: 1440px) {
+  .header {
+    height: 83px;
+    background: #131313;
+    color: #fff;
+    font-size: 11px;
+    display: flex;
+    align-items: center;
+  }
+
+  .desktop-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .header-nav-list {
+    display: flex;
+    list-style: none;
+  }
+
+  .header-nav-list a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .header-nav-list a:hover {
+    color: #E3B873;
+  }
+
+  .header-btn {
+    padding: 13px 33px;
+    font-style: italic;
+    margin-right: 90px;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    border-radius: 2px;
+  }
+
+  .header-nav-list li:not(:last-child) {
+    margin-right: 47px;
+  }
+
+  .header p {
+    margin-left: 90px;
+    margin-right: 120px;
+  }
+
+  .header-tel {
+    margin-right: 45px;
+    margin-left: 90px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .header {
+    background: #131313;
+    height: 57px;
+  }
+
+  .header .container {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .header p {font-size: 11px;}
+
+  .header nav {display: none;}
+  .header-btn {display: none;}
+
+  .header-tel {
+    text-decoration: none;
+    color: #fff;
+    font-size: 11px;
+  }
+}
+
+
+@media screen and (max-width: 2500px) {
+  .header {
+    height: 83px;
+    background: #131313;
+    color: #fff;
+    font-size: 11px;
+    display: flex;
+    align-items: center;
+  }
+
+  .desktop-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .header-nav-list {
+    display: flex;
+    list-style: none;
+  }
+
+  .header-nav-list a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .header-nav-list a:hover {
+    color: #E3B873;
+  }
+
+  .header-btn {
+    padding: 13px 33px;
+    font-style: italic;
+    margin-right: 90px;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    border-radius: 2px;
+  }
+
+  .header-nav-list li:not(:last-child) {
+    margin-right: 47px;
+  }
+
+  .header p {
+    margin-left: 90px;
+    margin-right: 120px;
+  }
+
+  .header-tel {
+    margin-right: 45px;
+    margin-left: 90px;
+  }
+}
