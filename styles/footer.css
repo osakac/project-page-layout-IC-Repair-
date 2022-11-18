@@ -62,6 +62,6 @@
 }
 
 
-@media screen and (max-width: 2500px) {
+@media screen and (max-width: 2500px) and (min-width: 2500px) {
   .footer {display: none;}  
 }
