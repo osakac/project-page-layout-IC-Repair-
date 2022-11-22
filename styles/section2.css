@@ -1,4 +1,4 @@
-@media screen and (max-width: 1440px) and (min-width: 1440px) {
+@media screen and (min-width: 1440px) {
   .section2 {
     background: #131313;
     height: 1074px;
@@ -93,7 +93,7 @@
 }
 
 
-@media screen and (max-width: 375px) and (min-width: 375px) {
+@media screen and (max-width: 1300px) and (min-width: 375px) {
   .section2 {
     background: #131313;
   }

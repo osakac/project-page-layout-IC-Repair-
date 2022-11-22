@@ -1,4 +1,4 @@
-@media screen and (max-width: 1440px) and (min-width: 1440px) {
+@media screen and (min-width: 1440px) {
   .section4-title {
     margin: 0 auto;
     width: fit-content;
@@ -72,7 +72,7 @@
 }
 
 
-@media screen and (max-width: 375px) and (min-width: 375px) {
+@media screen and (max-width: 1300px) and (min-width: 375px) {
   .section4-title {
     margin: 0 auto;
     height: 70px;
