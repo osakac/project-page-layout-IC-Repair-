@@ -1,4 +1,4 @@
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1300px) {
   .footer {
     height: 133px;
     background: #131313;
@@ -52,7 +52,7 @@
 
 }
 
-@media screen and (max-width: 1300px) and (min-width: 375px) {
+@media screen and (max-width: 1299px) {
   .footer {
     background: #131313;
     height: 40px;

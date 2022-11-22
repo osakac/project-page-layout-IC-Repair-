@@ -1,4 +1,4 @@
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1300px) {
   .header {
     height: 83px;
     background: #131313;
@@ -9,6 +9,7 @@
   }
 
   .desktop-header {
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -51,7 +52,7 @@
   }
 }
 
-@media screen and (max-width: 1300px) and (min-width: 375px) {
+@media screen and (max-width: 1299px) {
   .header {
     background: #131313;
     height: 57px;
