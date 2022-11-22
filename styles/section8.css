@@ -117,6 +117,7 @@
 }
 
 
+/* Мобильная версия */
 @media screen and (max-width: 1299px) {
   .section8 {
     background: #131313;

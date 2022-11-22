@@ -69,6 +69,8 @@ button {
   }
 }
 
+
+/* Мобильная версия */
 @media screen and (max-width: 1299px) {
   .container {
     width: 90%;
@@ -101,7 +103,19 @@ button {
     background: transparent;
   }
 
-  .agreement {margin: 26px 0 0;}
+  .agreement {
+    margin: 26px 0 0;
+    display: flex;
+  }
+
+  .agreement p {
+    font-size: 14px;
+    margin-left: 10px;
+  }
+
+  .checkbox {
+    padding: 1px 4px;
+  }
 }
 
 @media screen and (max-width: 2500px) {

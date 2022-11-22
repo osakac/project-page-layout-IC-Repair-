@@ -45,7 +45,6 @@
 
   .section6-imgs {
     display: flex;
-    /* margin-left: 208px; */
   }
 
   .section6-imgs-left-block {
@@ -71,6 +70,7 @@
 }
 
 
+/* Мобильная версия */
 @media screen and (max-width: 1299px) {
   .section6 {
     background: #131313;
@@ -100,6 +100,7 @@
     position: absolute;
     top: -120px;
     background-image: url(../mob_img/section6.png);
+    background-size: 100% 100%;
     width: 100%;
     height: 242px;
   }

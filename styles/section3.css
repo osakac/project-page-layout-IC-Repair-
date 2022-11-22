@@ -73,6 +73,7 @@
 }
 
 
+/* Мобильная версия */
 @media screen and (max-width: 1299px) {
   .section3 {
     background: #131313;
@@ -105,13 +106,22 @@
     margin-top: 40px;
     height: 207px;
     margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+
+  .section3-img-mobile__position {
+    background-image: url(../mob_img/section3.png);
+    width: 340px;
+    height: 207px;
   }
 
   .section3_video-play-btn-mobile {
     padding: 12px 10px 10px 12px;
     border-radius: 50%;
     display: flex;
-    margin-top: -130px;
+    margin-top: 80px;
     margin-left: 155px;
     position: relative;
     box-shadow: 0px 5px 30px rgba(227, 184, 115, 0.2);

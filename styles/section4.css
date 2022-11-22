@@ -72,6 +72,7 @@
 }
 
 
+/* Мобильная версия */
 @media screen and (max-width: 1299px) {
   .section4-title {
     margin: 0 auto;
@@ -101,7 +102,10 @@
 
   .section4-card {
     height: 482px;
-    margin-bottom: 60px;
+    /* margin-bottom: 60px; */
+    margin: 0 auto 60px;
+    display: flex;
+    flex-direction: column;
   }
 
   .section4-card-info {
@@ -133,7 +137,7 @@
     padding: 11px 19px;
     box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
     position: relative;
-    bottom: -17px;
+    bottom: -12px;
   }
 
   .section4-img-desktop {display: none;}
