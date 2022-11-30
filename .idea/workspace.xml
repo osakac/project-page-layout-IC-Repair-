@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aeb41dd8-7813-4f2d-93ed-f3fbfe223c02" name="Changes" comment="added img to project">
-      <change afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+    <list default="true" id="aeb41dd8-7813-4f2d-93ed-f3fbfe223c02" name="Changes" comment="added slider (section 2 / desktop only)">
       <change beforePath="$PROJECT_DIR$/.idea/ic-repair.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ic-repair.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/section-2_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/section-2_3.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/section2.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/section2.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,6 +28,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2HvxPTbFJCyrIPNZPoM0eFyhEqG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -51,7 +51,7 @@
       <option name="presentableId" value="Default" />
       <updated>1669179333871</updated>
       <workItem from="1669179335111" duration="82000" />
-      <workItem from="1669789635582" duration="11054000" />
+      <workItem from="1669789635582" duration="13950000" />
     </task>
     <task id="LOCAL-00001" summary="added img to project">
       <created>1669797135626</created>
@@ -60,7 +60,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669797135626</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added slider (section 2 / desktop only)">
+      <created>1669805899147</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669805899147</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -79,6 +86,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added img to project" />
-    <option name="LAST_COMMIT_MESSAGE" value="added img to project" />
+    <MESSAGE value="added slider (section 2 / desktop only)" />
+    <option name="LAST_COMMIT_MESSAGE" value="added slider (section 2 / desktop only)" />
   </component>
 </project>

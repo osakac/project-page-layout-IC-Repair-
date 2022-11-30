@@ -88,6 +88,10 @@
     background: transparent;
   }
 
+  .section2-preview-btns button:hover {
+    color: #E3B873;
+  }
+
   .section2-preview-btns .active {
     color: #E3B873;
     padding-bottom: 5px;

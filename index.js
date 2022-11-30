@@ -7,7 +7,6 @@ const time = document.querySelector('.section2__details-time')
 const img = document.querySelector('.section2__img-block')
 const icons = document.querySelector('.section2__nav-icons')
 const view = document.querySelectorAll('.section2__view-item')
-console.log(view);
 let index = 0
 
 const ENTITIES = [
@@ -47,6 +46,7 @@ const ENTITIES = [
 ]
 
 function flipping(el) {
+  document.querySelector('.active').classList.remove('active')
   view[el].classList.add('active')
   const obj = ENTITIES[el]
   city.innerHTML = obj.city
@@ -58,15 +58,14 @@ function flipping(el) {
 }
 
 prevBtn.addEventListener('click', () => {
-  view[index].classList.remove('active')
   index--
   if (index < 0) index = ENTITIES.length - 1
   flipping(index)
 })
 
 nextBtn.addEventListener('click', () => {
-  view[index].classList.remove('active')
   index++
   if (index === ENTITIES.length) index = 0
   flipping(index)
 })
+
