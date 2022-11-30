@@ -70,23 +70,29 @@
     justify-content: space-between;
   }
 
-  .section2-preview-links {
+  .section2__img-block {
+    height: 482px;
+    background-image: url(../img/section-2_1.png);
+  }
+
+  .section2-preview-btns {
     display: flex;
     justify-content: space-between;
   }
 
-  .section2-preview-links a {
-    text-decoration: none;
+  .section2-preview-btns button {
     font-size: 14px;
     color: rgba(255, 255, 255, 0.3);
     border-bottom: 1px solid transparent;
     padding-bottom: 5px;
+    background: transparent;
   }
 
-  .section2-preview-links a:hover {
+  .section2-preview-btns .active {
     color: #E3B873;
     padding-bottom: 5px;
     border-bottom: 1px solid #E3B873;
+    border-radius: 1px;
   }
 
   .section2_mobile-version {display: none;}
